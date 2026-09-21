@@ -15,8 +15,10 @@ I have an ambition of having instructions in each folder.
   - Include all lecture exercises
     - lecture 1:
       -  Caesar Cipher
+        - **Done: 21-SEP-2026** 
       -  Constants
       -  Game of life
+        - **Done: 21-SEP-2026** 
       -  Primes
       -  Wordle
     -  Live code:
