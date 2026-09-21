@@ -7,7 +7,18 @@ But even though java seems to be a pain in the ***\ I need to learn it and will 
 I have an ambition of having instructions in each folder.
 
 ### Folders right now
-- calculator
+#### calculator
   - An simple calculator where i just try out the language
   - **Start date: 11-AUG-2026**
   - **End date: 00-???-2026**
+#### Lectures
+  - Include all lecture exercises
+    - lecture 1:
+      -  Caesar Cipher
+      -  Constants
+      -  Game of life
+      -  Primes
+      -  Wordle
+    -  Live code:
+      - Uger 
+      
