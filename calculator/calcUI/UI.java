@@ -50,7 +50,8 @@ public class UI {
 
     // button functionality
     button11.addActionListener(e -> {
-      title.setText("Button clicked!");
+      String text = "1";
+      calcText.setText(text);
     });
 
     frame.setVisible(true);
