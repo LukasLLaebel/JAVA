@@ -27,6 +27,7 @@ I have an ambition of having instructions in each folder.
     - **Done: 21-SEP-2026**
     - Primes
     - Wordle
+      - **Done: 28-SEP-2026**   
   - Live code:
   - Uger
   - lecture 2
