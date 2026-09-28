@@ -1,27 +1,36 @@
 # OOP Code made in JAVA
 
 Yeah i am learning java this semester this is what some people will call exiting. <br>
-But even though java seems to be a pain in the ***\ I need to learn it and will hopefully be good at it.
+But even though java seems to be a pain in the \*\*\*\ I need to learn it and will hopefully be good at it.
 
 ## Navigation
+
 I have an ambition of having instructions in each folder.
 
 ### Folders right now
+
 #### calculator
-  - An simple calculator where i just try out the language
-  - **Start date: 11-AUG-2026**
-  - **End date: 00-???-2026**
+
+- An simple calculator where i just try out the language
+- **Start date: 11-AUG-2026**
+- **End date: 00-???-2026**
+
 #### Lectures
-  - Include all lecture exercises
-    - lecture 1:
-      -  Caesar Cipher
-        - **Done: 21-SEP-2026** 
-      -  Constants
-        - **Done: 21-SEP-2026** 
-      -  Game of life
-        - **Done: 21-SEP-2026** 
-      -  Primes
-      -  Wordle
-    -  Live code:
-      - Uger 
-      
+
+- Include all lecture exercises
+  - lecture 1:
+    - Caesar Cipher
+    - **Done: 21-SEP-2026**
+    - Constants
+    - **Done: 21-SEP-2026**
+    - Game of life
+    - **Done: 21-SEP-2026**
+    - Primes
+    - Wordle
+  - Live code:
+  - Uger
+  - lecture 2
+    - bank
+    - book
+    - shapes
+      - **Done: 28-SEP-2026**
