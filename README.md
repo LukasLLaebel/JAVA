@@ -31,6 +31,7 @@ I have an ambition of having instructions in each folder.
   - Uger
   - lecture 2
     - bank
+      - **Done: 28-SEP-2026**
     - book
     - shapes
       - **Done: 28-SEP-2026**
