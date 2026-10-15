@@ -27,6 +27,23 @@
 
   it will setup the project and download all dependencies.
 
+### Database setup
+
+we need an database system i chose postgresql.
+made an docker compose file so you need to install docker compose before use.
+
+I chose adminer as admin panel because i use that in our course on this semester: Database and Software Architecture (DSA)
+
+To to turn on the database run:
+
+```bash
+docker-compose up -d
+```
+
+#### Future improvements
+
+In the future I will convert it to SQLite, but in the starting fase its easiere to work with something known.
+
 ## Project Overview
 
 Create a secure email system for sending and receiving emails. Learn email protocols and secure web development.

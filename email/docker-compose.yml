@@ -1,0 +1,32 @@
+services:
+
+  db:
+    image: postgres:16
+    # set shared memory limit when using docker-compose
+    shm_size: 128mb
+    volumes:
+      - psql_data:/var/lib/postgresql/data
+      # Auto-load the lecture's example SQL on first init.
+      # Postgres runs every .sql / .sh file found here, in alphabetical
+      # order, the FIRST time the data volume is initialised.
+      - ./sql:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: dbs
+      POSTGRES_PASSWORD: dbs
+      POSTGRES_DB: dbs
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dbs -d dbs"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+volumes:
+  psql_data:
