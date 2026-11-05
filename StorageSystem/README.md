@@ -29,3 +29,12 @@ skal implementere denne klasse med følgende krav
 - Implementer relevante fejlhåndteringsmekanismer hvis
   - Der tilføjes en vare til en lagerplads uden kapacitet.
   - Der fjernes en vare fra en lagerplads uden varen er på lagerpladsen.
+
+# Opgave 3 - En lagerpladsallokeringsmekanisme
+
+- Vi vil nu udvide vores lagerklasse med en allokeringsmekanisme. Det vil sige vi skal udvide klassen
+  med en metode Lagerplads findSpace (Vare v), der gennemsøger lageret efter en lager-
+  plads med fri plads til varen v.
+- Vi vil gerne gøre det muligt at benytte forskellige allokeringsstrategier såsom
+  - vil Find den første lagerplads med plads,
+  - Find pladsen med mest plads tilængelig plads,
