@@ -28,10 +28,19 @@ class Central extends Lager {
     return true;
   }
 
+  boolean removeVare(Vare vare, String location) {
+    int index = locations.indexOf(location);
+    if (index != -1 && items.get(index).equals(vare.name)) {
+      locations.remove(index);
+      items.remove(index);
+      return true;
+    }
+    return false;
+  }
+
 }
 
 class Lager {
-
   String name;
   String building;
   double capacity;
