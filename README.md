@@ -8,9 +8,9 @@ tilladte hjælpemidler
 - Kursusnoter, Lærebøger, slides, materialer fra Moodle.
 - Lokal versionskontrol (e.g. git)
 - Softwareudviklingsmiljø
-- Valgfri Kodeeditor (dog uden generativ ai og agentic ai),
-- Valgfri Compiler
-- Valgfri IDE (dog uden generativ ai og agentic ai)
+  - Valgfri Kodeeditor (dog uden generativ ai og agentic ai),
+  - Valgfri Compiler
+  - Valgfri IDE (dog uden generativ ai og agentic ai)
 
 ## Instruktioner
 
