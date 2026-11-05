@@ -62,6 +62,16 @@ class Lager {
       return false;
     }
   }
+
+  boolean removeVare(Vare vare, Central central) {
+    if (usedCapacity - vare.size >= 0) {
+      usedCapacity -= vare.size;
+      central.removeVare(vare, this.building);
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 public class Main {
@@ -78,6 +88,10 @@ public class Main {
 
     System.out.println("Locations for items : " + centralLager_A112.locations);
     System.out.println("Items : " + centralLager_A112.items);
+
+    System.out.println("Used capacity: " + lager_B67.usedCapacity);
+
+    System.out.println("Removing BB810: " + lager_B67.removeVare(BB810, centralLager_A112));
 
     System.out.println("Used capacity: " + lager_B67.usedCapacity);
 
