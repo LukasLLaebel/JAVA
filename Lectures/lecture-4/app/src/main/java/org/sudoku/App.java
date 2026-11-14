@@ -14,7 +14,7 @@ public class App {
 
       PrintGrid.print(grid);
 
-    } catch (IllegalArgumentException | IndexOutOfBoundsException e) {
+    } catch (SudokuExceptions e) {
       System.out.println(e.getMessage());
     }
   }

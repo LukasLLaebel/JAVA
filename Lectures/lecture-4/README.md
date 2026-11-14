@@ -54,9 +54,9 @@ Implement error handling for the Sudoku board.
 
 The `SudokuException` class should be used when an invalid operation is performed on the Sudoku board.
 
-- [ ] Implement `SudokuException` with a meaningful error message.
-- [ ] Throw an exception when setting a value outside 1–9.
-- [ ] Throw an exception when accessing an invalid coordinate.
+- [x] Implement `SudokuException` with a meaningful error message.
+- [x] Throw an exception when setting a value outside 1–9.
+- [x] Throw an exception when accessing an invalid coordinate.
 - [ ] Ensure invalid operations do not modify the board.
 
 ## Exercise 3 – Sudoku Listeners
