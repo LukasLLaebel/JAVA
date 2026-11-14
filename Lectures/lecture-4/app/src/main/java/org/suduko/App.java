@@ -9,6 +9,7 @@ public class App {
     grid.set(1, 0, 3);
     grid.set(4, 0, 7);
 
+    grid.reset();
     PrintGrid.print(grid);
   }
 }
