@@ -77,11 +77,11 @@ Implement the functionality required to validate a Sudoku board.
 
 A Sudoku is valid when no number appears more than once in the same row, column, or 3×3 square.
 
-- [ ] Implement a method to check whether a number exists in a row.
-- [ ] Implement a method to check whether a number exists in a column.
-- [ ] Implement a method to check whether a number exists in a 3×3 square.
-- [ ] Implement a method to determine whether a number can be placed in a cell.
-- [ ] Implement a method to check whether the Sudoku is solved.
+- [x] Implement a method to check whether a number exists in a row.
+- [x] Implement a method to check whether a number exists in a column.
+- [x] Implement a method to check whether a number exists in a 3×3 square.
+- [x] Implement a method to determine whether a number can be placed in a cell.
+- [x] Implement a method to check whether the Sudoku is solved.
 
 ## Exercise 5 – Sudoku Game
 
@@ -89,12 +89,12 @@ Implement the functionality required to manage a Sudoku game.
 
 A game should contain an initial puzzle and allow the player to solve it without modifying the predefined numbers.
 
-- [ ] Implement a method to load a predefined Sudoku puzzle.
-- [ ] Store the original puzzle separately from the current board.
-- [ ] Prevent changing predefined puzzle cells.
-- [ ] Implement a method to restart the puzzle.
+- [x] Implement a method to load a predefined Sudoku puzzle.
+- [x] Store the original puzzle separately from the current board.
+- [x] Prevent changing predefined puzzle cells.
+- [x] Implement a method to restart the puzzle.
 - [ ] Implement a method to check whether the puzzle is completed.
-- [ ] Display a message when the puzzle is solved.
+- [x] Display a message when the puzzle is solved.
 
 ## Exercise 6 – Sudoku User Interface
 

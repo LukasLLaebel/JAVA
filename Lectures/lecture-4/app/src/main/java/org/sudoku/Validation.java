@@ -35,7 +35,7 @@ public class Validation {
     return true;
   }
 
-  private boolean validateNum(Grid grid, int x, int y, int num) {
+  public boolean validateNum(Grid grid, int x, int y, int num) {
     return validateNumRow(grid, x, y, num)
         && validateNumColumn(grid, x, y, num)
         && validateNumSquare(grid, x, y, num);
@@ -55,7 +55,6 @@ public class Validation {
         }
       }
     }
-
     return true;
   }
 }

@@ -15,4 +15,9 @@ public class SudokuExceptions extends RuntimeException {
     throw new SudokuExceptions(
         "Coordinates must be between 0 and 8: (" + x + ", " + y + ")");
   }
+
+  public static void spaceAlreadyTaken(int x, int y) {
+    throw new SudokuExceptions(
+        "Space already taken at: (" + x + ", " + y + ")");
+  }
 }

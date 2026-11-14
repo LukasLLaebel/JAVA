@@ -22,6 +22,9 @@ public class Grid {
     if (x < 0 || x >= 9 || y < 0 || y >= 9) {
       SudokuExceptions.invalidCoordinates(x, y);
     }
+    if (get(x, y) != 0) {
+      SudokuExceptions.spaceAlreadyTaken(x, y);
+    }
 
     grid[x][y] = val;
     for (var listener : listeners) {
