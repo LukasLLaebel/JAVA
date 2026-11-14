@@ -1,4 +1,4 @@
-package org.suduko;
+package org.sudoku;
 
 public class App {
   public static void main(String[] args) {
@@ -12,9 +12,9 @@ public class App {
 
       grid.unset(1, 0);
 
-      // grid.reset();
       PrintGrid.print(grid);
-    } catch (IllegalArgumentException e) {
+
+    } catch (IllegalArgumentException | IndexOutOfBoundsException e) {
       System.out.println(e.getMessage());
     }
   }

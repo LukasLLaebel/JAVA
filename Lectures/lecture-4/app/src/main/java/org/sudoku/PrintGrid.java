@@ -1,4 +1,4 @@
-package org.suduko;
+package org.sudoku;
 
 public class PrintGrid {
 

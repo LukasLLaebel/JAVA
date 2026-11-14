@@ -1,4 +1,4 @@
-package org.suduko;
+package org.sudoku;
 
 public class Grid {
   private int[][] grid;
@@ -13,11 +13,11 @@ public class Grid {
 
   public void set(int x, int y, int val) {
     if (val < 1 || val > 9) {
-      throw new IllegalArgumentException("Value must be between 1 and 9");
+      SudokuExceptions.invalidValue(val);
     }
 
     if (x < 0 || x >= 9 || y < 0 || y >= 9) {
-      throw new IndexOutOfBoundsException("Coordinates must be between 0 and 8");
+      SudokuExceptions.invalidCoordinates(x, y);
     }
 
     grid[x][y] = val;
