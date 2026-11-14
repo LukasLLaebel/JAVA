@@ -65,11 +65,11 @@ Implement the listener functionality to notify other classes when the Sudoku boa
 
 The `ISudokuListener` interface should be implemented by classes that want to receive notifications about changes to the board.
 
-- [ ] Implement `ISudokuListener` in a separate class.
-- [ ] Implement `addListener()` to register listeners.
+- [x] Implement `ISudokuListener` in a separate class.
+- [x] Implement `addListener()` to register listeners.
 - [ ] Implement `notifyListeners()` to notify registered listeners.
-- [ ] Notify listeners when a cell changes.
-- [ ] Test the listener functionality using a simple console output.
+- [x] Notify listeners when a cell changes.
+- [x] Test the listener functionality using a simple console output.
 
 ## Exercise 4 – Sudoku Validation
 
