@@ -1,10 +1,13 @@
 package org.sudoku;
 
+import java.util.ArrayList;
+
 public class Grid {
   private int[][] grid;
 
   public Grid() {
     grid = new int[9][9];
+    listeners = new ArrayList<ISudokuListener>();
   }
 
   public int get(int x, int y) {
@@ -21,6 +24,9 @@ public class Grid {
     }
 
     grid[x][y] = val;
+    for (var listener : listeners) {
+      listener.onSudokuValueSet(x, y, val);
+    }
   }
 
   public void reset() {
@@ -29,10 +35,19 @@ public class Grid {
         grid[x][y] = 0;
       }
     }
+    for (var listener : listeners) {
+      listener.onSudokuReset();
+    }
   }
 
   public void unset(int x, int y) {
     grid[x][y] = 0;
   }
+
+  public void addListener(ISudokuListener listener) {
+    listeners.add(listener);
+  }
+
+  private ArrayList<ISudokuListener> listeners;
 
 }
