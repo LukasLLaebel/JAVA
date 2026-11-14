@@ -45,8 +45,8 @@ The board is represented by an integer array containing 81 elements. Each cell i
 - [x] Implement `get(x, y)` to retrieve a cell value.
 - [x] Implement `set(x, y, val)` to assign a value to a cell.
 - [x] Ensure values are between 1 and 9.
-- [ ] Implement `reset()` to clear the board.
-- [ ] Implement `unset(x, y)` to clear a specific cell.
+- [x] Implement `reset()` to clear the board.
+- [x] Implement `unset(x, y)` to clear a specific cell.
 
 ## Exercise 2 – Sudoku Exceptions
 
