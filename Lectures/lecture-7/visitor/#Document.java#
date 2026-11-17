@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Document {
+
+    
+    
+    void addElement (DocumentElement e) {
+	elements.add (e);
+    }
+
+    
+    
+    private ArrayList<DocumentElement> elements = new ArrayList<DocumentElement> ();
+    
+}
